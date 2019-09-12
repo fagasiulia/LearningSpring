@@ -17,7 +17,6 @@
    
     <bean id="myCoach"
           class = "springdemo.TrackCoach"
-          scope = "prototype"
           init-method = "doMyStartupStaff"
           destroy-method = "doMyCleanupStaff">
           
